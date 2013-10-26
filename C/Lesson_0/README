@@ -1,0 +1,22 @@
+Welcome to the setup lesson! Each language guide will start with a 0 lesson that consists of necessary
+setup needed for use of the language. Since you are running Linux*, you actually already have a C
+compiler. This coding challenge consists of the simplest modifications you will be asked to do, with
+the purpose of simply showing you how to run your first C program.
+
+1. Check out first.c and modify it as it instructs.
+
+2. In your terminal, navigate to the correct directory and run the commands:
+g++ -o first first.c
+./first
+
+3. If you get the next instruction, you've got it working!
+
+
+
+* Ubuntu is just one of many Linux operating systems. If you are running Ubuntu, you are also running Linux.
+
+** If you were curious about the above commands, here is a simple explanation:
+'g++' invokes the gnu c/c++ compiler, '-o' specifies that an object file is to be created alongside an
+executable, 'first' specifies the name of the executable, and 'first.c' specifies what file to use to 
+create the executable
+'./' is the command used to run an executable.
