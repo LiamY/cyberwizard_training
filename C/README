@@ -1,0 +1,40 @@
+If you have yet to complete your first cyber-training challenge you have come to the right place! It is recommended that you
+complete the C challenges before moving on challenges in other languages. That being said, you are free to move at your own
+pace in this tutorial, and if you are feeling a little rebelious you can by all means ignore my warnings and begin
+completing whichever challenges you so choose! For more information about the order in which I recommend you complete the
+challenges, read the README file in the parent directory. GLHF!
+
+Basic Overview of C:
+
+1. C is what is called a 'low level' language. What this means from a technical sense is that C is 'closer' to the hardware in it's
+level of abstraction. There are much fewer steps required to change C code into machine language* than there for a 'high level'
+language like Python. What this means to you is that it is going to take a LOT more lines to complete a task in C code than is would
+to do that same task in Python or any higher level language. The property of being able to do a large number of things with just a
+few lines of code is called 'expressiveness'. C is not a very expressive language!
+
+2. Worry not! This does not mean that C is a 'worse' language just because it is verbose. In fact there are many benefits of coding
+in C. Because C is not expressive, it can be used quite efficiently to specialized tasks. While you can see C as, "you HAVE to
+specify every little thing you want to do", you could also see it as, "you CAN specify exactly what you want to do, and not run
+anything you don't want to do". What does this mean for us? C is fast. Lightning fast. Sure you can write something in one line
+of Python that would take 8 lines of C, but you will pay for it in execution time. C is pretty much the fastest language you will
+most likely ever code in. Any faster and you will be moving out of the realm of 'software design' and into 'hardware design'.
+
+3. So, why start with C? If you are new to coding, C will show you all the different kinds of things your software does. In other
+languages you will write code that looks like it can 'skip' a lot of the things C does, but I garauntee you it does no such thing.
+Those programs still have to do everything C does, they just do it quietly out of sight. By starting with C, you'll be forced to
+hand-code all the dirty details which will help ENORMOUSLY when you start getting errors in other languages. What will be mystifying
+anomolies to high-level-only coders will (sometimes) make perfect sense to you!
+
+4. Last of all C is fun and simple. We will be building a knowledge base that will apply directly to what you will be learning
+about in languages further on. In Python you might call a 'build_list()' command; In C will write the code that would go in
+"build_list()". C++ is the epitome of this concept in that it is literally an extension of C! More on that when we get there...
+
+All that's left to do now is begin! As you may have noticed, there is a pattern with README's in this tutorial. Read each one
+prior to starting that challenge, and then tackle it head on! Stick with me, and the virtual world will be at your fingertips
+in no time!
+
+
+
+* Machine language is the only language that your microprocessor can actually read. It consists entirely of 1's and 0's (binary)
+and all code that runs on your computer, no matter what language, must at some point be transformed into machine code before it
+can be executed.
