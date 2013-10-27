@@ -1,0 +1,98 @@
+Hey! So to clarify, although it may have looked like I was going to walk you
+step by step through each challenge, I am not actually going to walk you step
+by step through each challenge. Let that one sink in. By getting this far, you
+have proven that you are in fact a big boy/girl and can figure things out. We
+aren't in lesson 0 anymore baby! We're in positive integers now!
+
+Though you might be thinking this is a jerk move, I promise, I have a perfectly
+legitimate motive. Being a good coder does NOT mean knowing how to code everything
+in every language in every way. No, in fact being a good coder means understanding
+most of the general concepts, and being able to FIGURE THE REST OUT! So from here on
+out, I'll be describing the projects to you in what I believe to be an unambiguous
+manner, and you'll code the parts you already know and proceed to promptly look up the
+parts that you don't. Stackoverflow.com, cplusplus.com, and python.org are yor friends.
+As are the various other forums out there designed for languages in general or specific
+ones. I promise, if I'm asking you to do it, the internet contains the method. It's
+just up to you to find it.
+
+I would like to dispel some potential assumptions: These lessons will be kind of tough,
+they'll assume you are an intelligent person and as such will require potentially large
+leaps of thought. If you weren't intelligent, I wouldn't have given you access to this
+so deal with it. Even though it's hard, stick with it. Every little thing you learn from
+these lessons will be very useful for any and all coding you need to do. I say 'you learn'
+and not 'I teach you' because this is going to require that you teach yourself. I am less
+of a teacher and more of a guide. 
+
+The task of becoming a proficient programmer towers over you like an enormous mountain
+range. There are various routes you could take to get to the other side, none of which
+are easy. I assert that my route is one of the faster ones. I intend on making this task
+easier by modulating it into quantifiable pieces. In each lesson I am going to point to 
+specific mountain, and tell you to climb.
+
+***************************************************************************************
+
+Lesson_1(begin); //Let's get this party started!
+
+This lesson is going to cover many core concepts to the C language. If you want to focus
+just on getting working or if you want to heavily analyze the concepts completely before
+implementing the code, both are valid. If you don't fully understand the concepts by the
+end of this first lesson, there will be plenty more lessons to hammer them into your
+brain!
+After a concept is first introduced however, there will be minimal explanation of how it
+works. If you are still confused, yea you guessed it, look it up!
+
+Core Concepts:
+Review:
+	- N/A
+New:
+	- variable declarations (initializing variables so you can use them elsewhere)
+	- function declarations (initializing functions so you can call them elsewhere)
+	- function calls (calling functions with and without parameters, and managing return values)
+	- variable assignments (x = y assigns the value of y to the value of x. It makes x equal y)
+	- structs (creating and using complex data types known as structures)
+	- pointers (*)
+	- memory allocation ('malloc()' and 'free()')
+	- typecasting
+	- loops (while loop)
+
+We are going to be building a data structure known as a 'linked list'. Later on, we'll be
+USING that structure, but for now we will just be building it. 'node.c' contains the
+skeleton of the code you will be writing so that you have somewhere to start, but be
+aware you will need to understand how the skeleton works to get everything running smoothly.
+
+When you are done, you should be able to add input from the command line into a linked list
+data structure and print out the content at the top of the list.
+
+NOTE:
+	- Read all the comments! I put them there for a reason!
+	- Look for where it says 'CODE HERE'. You should probably put, like, code there
+	  or something. I dunno, just a thought.
+
+SYNTAX: 
+	- All C statements must be on only one line and end with a ';'
+	- curly braces denote a block of code. Blocks are associated with whatever comes
+	  immediately before them and are the only way in which the above rule is broken
+
+
+* Pointers are an extremely important concept in computing. When you get right down to it,
+everything in computing really consists of pointers. Ignore that last sentence for now.
+By the time you reach the end of this tutorial, if I've done my job, it will make perfect
+sense.
+For now you can think of pointers like so: Imagine a house(data structure) with a bunch
+of things in it. Now, suppose that your friend(a function) needs to use some of the stuff
+in the house. You have two options - you can either transport the house over to your friend,
+or you can give them an envelope with an address in it and say, "if you need something from
+the house here is a paper with the location, just go over there and get it."
+In C, much like in the example, it is not possible to transport the entire data structure to
+the function that needs access to it. So instead, you simply give the function an address 
+(it is actually called an 'address' in programming lingo, how convenient!), so it can go to
+where the data is and grab it from there.
+
+
+
+
+
+
+
+
+
