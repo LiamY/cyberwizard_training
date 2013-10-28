@@ -1,0 +1,51 @@
+
+I'm running Ubuntu 12.04, and all instructions will be for said OS, so you
+will also need to be running it if you want things to make sense. It's a free
+operating system and has lots of support so it shouldn't be too much trouble
+to install.
+Download the ISO from here: (READ NOTE)
+http://www.ubuntu.com/download/desktop
+You will need to put it on some kind of media you can boot from. If you have
+a cd that would be most convenient. To use a flash drive you will need to
+convert the ISO into a format that makes it bootable from a flash drive.
+
+NOTE: As an alternative, you can create a dropbox account and send me your
+username and I'll share access with a folder I uploaded containing the usb
+iso file.
+
+I don't know what you are reading this on, but you will want SublimeText2.
+Follow the instructions here once Ubuntu is installed:
+http://www.technoreply.com/how-to-install-sublime-text-2-on-ubuntu-12-04-unity/
+
+Next, you will need to install git. Run the following command:
+
+sudo apt-get install git
+
+cd into the folder you will be storing this tutorial's files in. then
+run the commands:
+
+git clone https://github.com/LiamY/cyberwizard_training.git
+git remote add origin https://github.com/liamy/cyberwizard_training.git
+
+Congratulations! You now have the up-to-date version of my code! If I've
+made changes since the last time you logged on, you can get them with
+the command:
+
+git pull origin master
+
+while you are on the master branch. To check what branch you are on, type:
+
+git branch
+
+For now, you will only ever be pulling from git, without pushing anything.
+This is so that I can make sure that no one accidentally overwrites any 
+of the tutorial code I've written. For code submission, simply email me
+your completed programs.
+Before you modify your code, you should create a branch so that you don't
+alter the master code. To make a new branch, type:
+
+git branch [new_branch_name]
+git checkout [new_branch_name]
+
+this will create a separate copy of the files so that you can modify them
+without modifying the original code.
