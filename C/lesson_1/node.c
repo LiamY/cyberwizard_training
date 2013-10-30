@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 
 struct node{	//This is a structure declaration. All declarations of any kind begin with a type followed by a name
@@ -18,7 +19,7 @@ struct node{	//This is a structure declaration. All declarations of any kind beg
 //code execution begins here!
 int main(){		//This is a function declaration. Every program must have a main() function so that it knows where to begin code execution.
 				//Functions, unlike other declarations, to not need a semicolon at the end as long as they have an open and closing curly brace.
-	char input;
+	char input[80];
 	struct node* top_node;
 	struct node* new_node;
 	top_node = NULL;
@@ -32,12 +33,12 @@ int main(){		//This is a function declaration. Every program must have a main() 
 
 		//CODE HERE: make it print "type a character and press enter"
 		
-		scanf("%c", input);
+		scanf("%s", input);
 		
 		//CODE HERE: uncomment the line below and finish it so that it puts the input character into the node
-		//new_node.a = ;
+		//->a = input[0];
 
-		new_node.next = top_node;
+		new_node->next = top_node;
 		top_node = new_node;
 
 		//CODE HERE: uncomment the line below and finish it so it prints the char in the top node
@@ -53,14 +54,14 @@ int main(){		//This is a function declaration. Every program must have a main() 
 
 struct node* build_node(){
 	struct node* new_node;
-	new_node = (struct node*)malloc(len(struct node));	//Yikes, this one is a little complex. There are several concepts in this line:
+	new_node = (struct node*)malloc(sizeof(struct node));	//Yikes, this one is a little complex. There are several concepts in this line:
 														//in order they are - assignment, typecasting, memory allocation, function call
 	/*
 		Alright so lets break it down:
 			new_node = blahblahblah;	sets the variable new_node equal to whatever is on the other side of the equals
 			(struct node*)				typecasts the value to a 'struct node pointer' so that it's the same type as 'new_node' 
 			malloc(blahblah)			makes space for a variable that doesn't disappear when the function ends
-			len(struct node)			returns the length of a 'struct node' data structure
+			sizeof(struct node)			returns the size(in bytes) of a 'struct node' data structure
 	*/
 	return new_node;					//Returns the value stored in 'new_node' to wherever the function was called from
 }
