@@ -49,3 +49,8 @@ git checkout [new_branch_name]
 
 this will create a separate copy of the files so that you can modify them
 without modifying the original code.
+
+When you are ready, you may now begin the lessons! The recommended order
+is C -> C++ -> Python. While this is only a recommendation, I must warn you
+that I tend to hit the ground running with these lessons so I suggest you
+start from the beginning or prepare to be a bit overwhelmed!
