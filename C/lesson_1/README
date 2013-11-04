@@ -73,8 +73,12 @@ SYNTAX:
 	- curly braces denote a block of code. Blocks are associated with whatever comes
 	  immediately before them and are the only way in which the above rule is broken
 
+OUTPUT:
+	If everything is coded correctly, the program should output the first letter of whatever you typed as input.
 
-* Pointers are an extremely important concept in computing. When you get right down to it,
+
+
+* Pointers are an extremely important concept in computing.When you get right down to it,
 everything in computing really consists of pointers. Ignore that last sentence for now.
 By the time you reach the end of this tutorial, if I've done my job, it will make perfect
 sense.
@@ -87,7 +91,6 @@ In C, much like in the example, it is not possible to transport the entire data 
 the function that needs access to it. So instead, you simply give the function an address 
 (it is actually called an 'address' in programming lingo, how convenient!), so it can go to
 where the data is and grab it from there.
-
 
 
 
